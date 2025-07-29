@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow" />
+    <title>Contact Us</title>
+    <link rel="icon" href="images/favicon1.png" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header class="header">
+        <!-- main header -->
+        <div class="navigation page-header">
+            <div class="container">
+                <div class="navigation-inner">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="sidenavs" id="mySidenavs">
+                            <span class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></span>
+                            <ul>
+                                <li><a href="index.html" >Home </a></li>
+                                <li><a href="spielanleitung">How to Play</a></li>
+                                <li><a href="kontaktiere-uns" class="active">Contact Us</a></li>
+                                <li><a href="blogeintrage">Blog Posts</a></li>
+                            </ul>
+                        </div>
+                        <div class="toggle-bar">
+                            <span class="toggle_menu" onclick="openNav()"><i class="fa fa-bars"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- main header -->
+    </header>
+    <!-- Header section -->
+
+    <!--  -->
+    <section class="inner-bnr contact">
+        <div class="container">
+            <div class="bnr-text-inner">
+                <h2>Contact Us
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <!--  -->
+    <section class="methoden">
+        <div class="container">
+            <div class="method-inner">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="uns-content">
+                            <h5>Contact Us </h5>
+                            <p>We would love to hear from you! Whether you have questions, comments, or need assistance, our Mavotova team is here for you. Contact us through one of the following methods:
+                            </p>
+                            <h5>Email </h5>
+                            <p> For general inquiries, support, or feedback, please send us an email at:
+                                Support: <a href="mailto:info@mavotova.com">info@mavotova.com</a></p>
+                            <p>Comments: <a
+                                    href="mailto:feedback@mavotova.com">feedback@mavotova.com</a></p>
+                            <h5>Social Networks
+                            </h5>
+                            <p>Connect with us on social media to get the latest updates, news, and community discussions:
+                            </p>
+                            <p><a href="#">Facebook </a></p>
+                            <p><a href="#">Twitter </a></p>
+                            <p><a href="#">Instagram </a></p>
+                            <h5>Contact Form
+                            </h5>
+                            <p>You can also send us a message directly from our website using the contact form below. Please provide your name, email address, and a brief description of your inquiry. We will respond as soon as possible.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contact-f">
+                            <h3>Contact Us</h3>
+                            <form id="contactForm" action="#">
+                                <div class="form-wrapper-p">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                <label>First Name *</label>
+                                                <input type="text" id="firstName" name="name"  autocomplete="off">
+                                            </p>
+                                            <div id="nameError" class="error">Please enter your first name</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>
+                                                <label> Last Name  *</label>
+                                                <input type="text" id="lastName" name="last_name" autocomplete="off">
+                                            </p>
+                                            <div id="lastNameError" class="error">Please enter your last name</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-wrapper-p">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <p>
+                                                <label>  Email *</label>
+                                                <input type="email" id="email" name="email"  autocomplete="off">
+                                            </p>
+                                            <div id="emailError" class="error">Please enter your email address</div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <p>
+                                                <label> Mobile Number *</label>
+                                                <input type="text" id="phoneNumber" name="number"
+                                                     autocomplete="off">
+                                            </p>
+                                            <div id="phoneNumberError" class="error">Please enter your mobile number
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-wrapper-p">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p>
+                                                <label> Your Message *</label>
+                                                <textarea id="message" name="message" cols="50" autocomplete="off"></textarea>
+                                            </p>
+                                            <div id="messageError" class="error">Please enter your message</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-wrapper-p">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p class="submit">
+                                                <input type="submit" id="submitBtn" value="Submit">
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-heading">
+                            <h5>About Mavotova</h5>
+                        </div>
+                        <div class="textwidget">
+                            <p>Join Mavotova today! Become a coach</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-heading">
+                            <h5>Latest Posts</h5>
+                        </div>
+                        <div class="text-widget">
+                            <div class="post-wrapper">
+                                <h5><a href="Ihr-ultimativer-leitfaden-für-den-einstieg">Ultimate Guide</a></h5>
+                                <div class="clearfix">
+                                    <p> Oct 21, 2022</p>
+                                </div>
+                            </div>
+                            <div class="post-wrapper">
+                                <h5><a href="die-10-besten-spieler-dieser-saison">Best Players</a></h5>
+                                <div class="clearfix">
+                                    <p> Oct 22, 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-heading">
+                            <h5>Quick Links
+
+                            </h5>
+                        </div>
+                        <div class="text-widget">
+                            <ul>
+                                <li><a href="index.html" class="active">Home</a></li>
+                                <li><a href="spielanleitung">How to Play</a></li>
+                                <li><a href="kontaktiere-uns">Contact Us</a></li>
+                                <li><a href="blogeintrage">Blog Posts</a></li>
+                                <li><a href="datenschutzrichtlinie">Privacy Policy</a></li>
+                                <li><a href="Rückgabe- und Rückerstattungsrichtlinie.html">Return and Refund Policy</a></li>
+                                <li><a href="geschaftsbedingungen">Terms and Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-heading">
+                            <h5>Follow Us</h5>
+                        </div>
+                        <div class="text-widget">
+                            <div class="footer-insta">
+                                <a href="#"><img src="images/1.jpg" alt="Image"></a>
+                                <a href="#"><img src="images/2.jpg" alt="Image"></a>
+                                <a href="#"><img src="images/3.jpg" alt="Image"></a>
+                                <a href="#"><img src="images/4.jpg" alt="Image"></a>
+                                <a href="#"><img src="images/5.jpg" alt="Image"></a>
+                                <a href="#"><img src="images/6.jpg" alt="Image"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-inner">
+                    <div class="ssl-certificate text-center py-3">
+                        <img src="images/ssl.png" alt="ssl-logo">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="Fantasiefutball">
+                                <p>Copyright © 2025 Mavotova All rights reserved</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-icon">
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/validation.js"></script>
+    <script>
+        const header = document.querySelector(".page-header");
+        const toggleClass = "is-sticky";
+
+        window.addEventListener("scroll", () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll > 150) {
+                header.classList.add(toggleClass);
+            } else {
+                header.classList.remove(toggleClass);
+            }
+        });
+
+    </script>
+</body>
+
+<html>

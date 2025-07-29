@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1199px) {
+    section.site-bnr {
+        height: 500px;
+    }
+
+    .bnr-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .sidenavs {
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        overflow-x: hidden;
+        background: #f67f1f;
+        height: 100vh;
+        transition: all .3s;
+        z-index: 9999999;
+        padding-top: 45px;
+        max-width: 300px;
+    }
+
+    a.active {
+        color: #fff !important;
+
+    }
+
+    .page-header {
+        opacity: 1;
+    }
+
+    .toggle-bar {
+        display: block !important;
+        color: #f67f1f;
+        font-size: 30px;
+    }
+
+    span.closebtn {
+        display: block !important;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        right: 19px;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .navigation div#mySidenavs ul {
+        display: block;
+    }
+
+    .navigation div#mySidenavs ul li {
+        margin-left: 0px;
+    }
+
+    .navigation div#mySidenavs ul li a {
+        padding: 7px 20px;
+        display: block;
+        color: #fff;
+    }
+
+    .navigation div#mySidenavs ul li a:hover {
+        color: #fff;
+    }
+
+    .untuchable .row {
+        flex-direction: column-reverse;
+    }
+
+    .history-wrapper .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .contact-f {
+        margin-top: 30px;
+    }
+
+    .team-headiing {
+        margin-bottom: 0px;
+    }
+
+    .roster {
+        margin: 30px auto;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .signup-wrapper .row .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .pokal {
+        padding-top: 20px;
+    }
+
+    section.easy-steps {
+        padding: 0 0 50px 0;
+    }
+
+    footer.footer {
+
+        text-align: center;
+    }
+
+    .textwidget p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-insta {
+        justify-content: flex-end;
+    }
+
+    .social-icon {
+        text-align: center;
+    }
+
+    .Fantasiefutball p {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Plattform-inner {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .sidenavs {
+        max-width: 100%;
+    }
+
+    .bnr-text-inner h2 {
+        font-size: 28px;
+    }
+    .form-subscribe .btn {
+        font-size: 16px;
+    }
+}
