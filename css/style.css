@@ -572,6 +572,7 @@ section.inner-bnr.privacy {
     background-position: center;
     background-size: cover;
     object-fit: cover;
+    width: 100%;
 }
 
 .bnr-text-inner h2 {
@@ -587,6 +588,7 @@ section.inner-bnr.terms {
     background-position: center;
     background-size: cover;
     object-fit: cover;
+    width: 100%;
 }
 
 section.terms-text {
@@ -637,6 +639,7 @@ section.inner-bnr.contact {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    width: 100%;
 }
 
 section.methoden {
@@ -735,6 +738,7 @@ section.inner-bnr.blogpost {
     background: url(../images/Blog-23.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 .Plattform-inner img {
@@ -817,6 +821,7 @@ section.inner-bnr.gameplay {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    width: 100%;
 }
 
 section.konto-wrapper {
@@ -1034,6 +1039,7 @@ section.inner-bnr.ihre {
     background: url(../images/soccer1.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 .striker-inr {
@@ -1044,24 +1050,28 @@ section.inner-bnr.die {
     background: url(../images/soccer3.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 section.inner-bnr.fantasy {
     background: url(../images/Fantasy-Draft.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 section.inner-bnr.weekly-res {
     background: url(../images/Weekly.avif)no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 
 }
 section.inner-bnr.Detaillierte {
     background: url(../images/soccer5.jpg)no-repeat;
     background-size: cover;
     background-position: center;
+    width: 100%;
 
 }
 
